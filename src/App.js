@@ -1,25 +1,42 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Hi from './Components/class_com';
+import Event_onfunctional from './Components/Event_onfunctional';
+import {Hello} from './Components/functional_com';
+import Welcome from './Components/JSX';
+import Pro from './Components/props';
+import Propss from './Components/propss';
+import  Sub  from './Components/states';
+import Event_fun from './Components/Event_onfunctional';
+import Event_class from './Components/Event_onclass';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/*<Hello />
+      <Hi />*/}
+      {//<Welcome />
+      }
+     {/*<Pro name="Lamrot" age="22">
+      <p>She is so hamble and brave strong </p>
+      <button>click here to See her pictures</button>
+      </Pro>
+     <Pro name="Yohans" age="12"/>
+     <Pro name="Werke"  age="41"/>*/
+     }
+    {/*<Propss name="Lamrot" age="22">
+    <p> Hi this is me</p>
+   </Propss>*/}
+      
+    {//<Sub />
+    }
+        {//<Event_fun />
+                }
+
+     <Event_class />
+
+
     </div>
   );
 }
 
 export default App;
+ 
